@@ -1,7 +1,6 @@
 import React from 'react';
 import SectionHeader from '../components/SectionHeader';
 import ServiceCard from '../components/ServiceCard';
-import ProjectGallery from '../components/ProjectGallery';
 import trimmingImg from '../assets/Trimming-img.jpg';
 import treeRemovalImg from '../assets/TreeRemoval-img.jpg';
 import stumpRemovalImg from '../assets/StumpRemoval-img.jpg';
