@@ -3,7 +3,7 @@ import SectionHeader from '../components/SectionHeader';
 import ServiceCard from '../components/ServiceCard';
 import ProjectGallery from '../components/ProjectGallery';
 import drivewayimg from '../assets/Driveway-img.jpg';
-import driveay2Img from '../assets/Driveway2-img.jpg';
+//import driveway2Img from '../assets/Driveway2-img.jpg';
 import pationImg from '../assets/Patio-img.jpg';
 import patio2Img from '../assets/Patio2-img.jpg';
 import walkwayImg from '../assets/Walkway-img.jpg';
@@ -26,7 +26,7 @@ const ConcreteServices: React.FC = () => {
             title: 'Driveways',
             description: 'Custom concrete driveways designed for durability and aesthetics.',
             imageSrc: drivewayimg,
-            imageSrc2: driveay2Img
+           // imageSrc2: driveway2Img
         },
         {
             title: 'Patios',
