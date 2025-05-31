@@ -1,0 +1,76 @@
+/* inject tailwinds styles, components(buttons, cards, etc), and utilities(flex, padding, margin, etc) */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Custom styles */
+@layer base {
+  html {
+    /* smooth scrolling for links */
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    /* sets background color, texct color and font */
+    @apply bg-gray-50 text-gray-900 font-sans;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    /* makes all heading to be bold */
+    @apply font-bold;
+  }
+  
+  /* Font sizes fot headings */
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl;
+  }
+  
+  h2 {
+    @apply text-3xl md:text-4xl;
+  }
+  
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+  
+  h4 {
+    @apply text-xl md:text-2xl;
+  }
+  
+  p {
+    /* add relaxed line-height to paragraphs */
+    @apply leading-relaxed;
+  }
+}
+
+/* custom reusable component styles */
+@layer components {
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+  
+  .container-padding {
+    @apply px-4 md:px-8;
+  }
+  
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-gray-700 to-black;
+  }
+  
+  .btn {
+    @apply px-6 py-3 rounded-md font-medium transition-all duration-300;
+  }
+  
+  .btn-primary {
+    @apply bg-black text-white hover:bg-gray-800;
+  }
+  
+  .btn-secondary {
+    @apply bg-gray-200 text-gray-900 hover:bg-gray-300;
+  }
+  
+  .btn-outline {
+    @apply border-2 border-black text-black hover:bg-black hover:text-white;
+  }
+}
