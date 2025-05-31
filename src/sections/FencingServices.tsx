@@ -2,7 +2,7 @@ import React from 'react';
 import SectionHeader from '../components/SectionHeader';
 import ServiceCard from '../components/ServiceCard';
 import fence1Img from '../assets/Fence1-img.jpg';
-import vinylFenceImg from '../assets/VinylFence-img.jpg';
+import vinylFenceImg from '../assets/vinylFence-img.jpg';
 import chainLinkFenceImg from '../assets/chainLink-img.jpg';
 
 const FencingServices: React.FC = () => {
