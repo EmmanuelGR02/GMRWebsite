@@ -6,6 +6,9 @@ import About from './sections/About';
 import ConcreteServices from './sections/ConcreteServices';
 import FencingServices from './sections/FencingServices';
 import TreeServices from './sections/TreeServices';
+import JunkRemoval from './sections/JunkRemoval';
+import LandscapingServices from './sections/LandscapingServices';
+import Contact from './sections/Contact';
 
 function App() {
   // state to check if the page is scrolled
@@ -39,6 +42,9 @@ function App() {
         <ConcreteServices />
         <FencingServices />
         <TreeServices />
+        <JunkRemoval />
+        <LandscapingServices />
+        <Contact />
       </main>
       <Footer />
     </div>
