@@ -94,6 +94,17 @@ const Footer: React.FC = () => {
             { /* bootom section */ }
             <div className="border-t border-gray-800 mt-12 pt-6 text-center text-gray-400">
                 <p>&copy; {currentYear} GMR Concrete LLC. All rights reserved.</p>
+                <p className="text-sm mt-2">
+                    Website developed by{' '}
+                    <a
+                        href="https://www.linkedin.com/in/emmanuel-gutierrez-rivera-851797300/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-white hover:underline"
+                        >
+                        Emmanuel Gutierrez Rivera
+                    </a>
+                </p>
             </div>
         </div>
     </footer>
