@@ -3,7 +3,7 @@ import SectionHeader from '../components/SectionHeader';
 import ServiceCard from '../components/ServiceCard';
 import { motion } from 'framer-motion';
 import { Truck, Recycle, Clock, Users } from 'lucide-react';
-import dumpImg from '../assets/Dump-img.jpg';
+import dumpImg from '../assets/Dump-Img.jpg';
 import asphaltDumpImg from '../assets/AsphaltDump-img.jpg';
 import yardWasteRemovalImg from '../assets/YardWasteRemoval-img.png';
 import appliaceDisposalImg from '../assets/ApplianceRemoval-img.jpg';
