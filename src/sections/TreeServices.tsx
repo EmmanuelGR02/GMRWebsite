@@ -31,7 +31,7 @@ const TreeServices: React.FC = () => {
       <div className="container mx-auto px-4">
         <SectionHeader 
           title="Tree Care Services" 
-          subtitle="Expert tree care solutions for health, safety, and beauty"
+          subtitle="Tree care solutions for health, safety, and beauty"
         />
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
